@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D1DB6E51CB134E2006F2290 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D1DB6E31CB134E2006F2290 /* Main.storyboard */; };
+		5D1DB6E71CB134E2006F2290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D1DB6E61CB134E2006F2290 /* Assets.xcassets */; };
+		5D1DB6EA1CB134E2006F2290 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D1DB6E81CB134E2006F2290 /* LaunchScreen.storyboard */; };
+		5D1DB6F61CB135DA006F2290 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1DB6F21CB135DA006F2290 /* AppDelegate.swift */; };
+		5D1DB6F71CB135DA006F2290 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1DB6F41CB135DA006F2290 /* ViewController.swift */; };
+		5D1DB7041CB13978006F2290 /* DhtAlbumListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1DB7031CB13978006F2290 /* DhtAlbumListViewController.swift */; };
+		5D1DB7071CB13C53006F2290 /* DhtBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1DB7061CB13C53006F2290 /* DhtBaseView.swift */; };
+		5D1DB7091CB13CFE006F2290 /* DhtBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1DB7081CB13CFE006F2290 /* DhtBaseViewController.swift */; };
+		5D1DB70B1CB13F34006F2290 /* DhtBaseViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1DB70A1CB13F34006F2290 /* DhtBaseViewProtocol.swift */; };
+		5D1DB70D1CB14558006F2290 /* DhtButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1DB70C1CB14558006F2290 /* DhtButton.swift */; };
+		5D1DB70F1CB146B5006F2290 /* DhtDefaultNavigationHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1DB70E1CB146B5006F2290 /* DhtDefaultNavigationHeaderView.swift */; };
+		5D1DB7121CB1476C006F2290 /* DhtPhotoAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1DB7111CB1476C006F2290 /* DhtPhotoAppearance.swift */; };
+		5DBBB9061CB1572C009207BD /* UIScreen+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBBB9051CB1572C009207BD /* UIScreen+Extension.swift */; };
+		5DBBB90B1CB15836009207BD /* DhtUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DBBB90A1CB15836009207BD /* DhtUtils.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D1DB6DC1CB134E2006F2290 /* DhtPhotoLibarby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DhtPhotoLibarby.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D1DB6E41CB134E2006F2290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D1DB6E61CB134E2006F2290 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D1DB6E91CB134E2006F2290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D1DB6EB1CB134E2006F2290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D1DB6F21CB135DA006F2290 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D1DB6F41CB135DA006F2290 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D1DB7031CB13978006F2290 /* DhtAlbumListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DhtAlbumListViewController.swift; sourceTree = "<group>"; };
+		5D1DB7061CB13C53006F2290 /* DhtBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DhtBaseView.swift; sourceTree = "<group>"; };
+		5D1DB7081CB13CFE006F2290 /* DhtBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DhtBaseViewController.swift; sourceTree = "<group>"; };
+		5D1DB70A1CB13F34006F2290 /* DhtBaseViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DhtBaseViewProtocol.swift; sourceTree = "<group>"; };
+		5D1DB70C1CB14558006F2290 /* DhtButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DhtButton.swift; sourceTree = "<group>"; };
+		5D1DB70E1CB146B5006F2290 /* DhtDefaultNavigationHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DhtDefaultNavigationHeaderView.swift; sourceTree = "<group>"; };
+		5D1DB7111CB1476C006F2290 /* DhtPhotoAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DhtPhotoAppearance.swift; sourceTree = "<group>"; };
+		5DBBB9051CB1572C009207BD /* UIScreen+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extension.swift"; sourceTree = "<group>"; };
+		5DBBB9081CB15836009207BD /* DhtPhotoLibarby-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DhtPhotoLibarby-Bridging-Header.h"; sourceTree = "<group>"; };
+		5DBBB9091CB15836009207BD /* DhtUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DhtUtils.h; sourceTree = "<group>"; };
+		5DBBB90A1CB15836009207BD /* DhtUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DhtUtils.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D1DB6D91CB134E2006F2290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D1DB6D31CB134E2006F2290 = {
+			isa = PBXGroup;
+			children = (
+				5D1DB6DE1CB134E2006F2290 /* DhtPhotoLibarby */,
+				5D1DB6DD1CB134E2006F2290 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D1DB6DD1CB134E2006F2290 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D1DB6DC1CB134E2006F2290 /* DhtPhotoLibarby.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D1DB6DE1CB134E2006F2290 /* DhtPhotoLibarby */ = {
+			isa = PBXGroup;
+			children = (
+				5D1DB6F11CB135DA006F2290 /* Classes */,
+				5D1DB6E31CB134E2006F2290 /* Main.storyboard */,
+				5D1DB6E61CB134E2006F2290 /* Assets.xcassets */,
+				5D1DB6E81CB134E2006F2290 /* LaunchScreen.storyboard */,
+				5D1DB6EB1CB134E2006F2290 /* Info.plist */,
+			);
+			path = DhtPhotoLibarby;
+			sourceTree = "<group>";
+		};
+		5D1DB6F11CB135DA006F2290 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5D1DB6F31CB135DA006F2290 /* Common */,
+				5D1DB6F51CB135DA006F2290 /* Module */,
+				5D1DB6F21CB135DA006F2290 /* AppDelegate.swift */,
+				5D1DB6F41CB135DA006F2290 /* ViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5D1DB6F31CB135DA006F2290 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5DBBB9071CB15824009207BD /* Utils */,
+				5DBBB9041CB15723009207BD /* extension */,
+				5D1DB7101CB14761006F2290 /* Config */,
+				5D1DB6F81CB13853006F2290 /* Model */,
+				5D1DB6F91CB13853006F2290 /* Store */,
+				5D1DB6FA1CB13853006F2290 /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5D1DB6F51CB135DA006F2290 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				5D1DB6FB1CB13931006F2290 /* Album List */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		5D1DB6F81CB13853006F2290 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D1DB6F91CB13853006F2290 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		5D1DB6FA1CB13853006F2290 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D1DB7061CB13C53006F2290 /* DhtBaseView.swift */,
+				5D1DB7081CB13CFE006F2290 /* DhtBaseViewController.swift */,
+				5D1DB70A1CB13F34006F2290 /* DhtBaseViewProtocol.swift */,
+				5D1DB70C1CB14558006F2290 /* DhtButton.swift */,
+				5D1DB70E1CB146B5006F2290 /* DhtDefaultNavigationHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D1DB6FB1CB13931006F2290 /* Album List */ = {
+			isa = PBXGroup;
+			children = (
+				5D1DB6FC1CB13931006F2290 /* Application Logic */,
+				5D1DB6FD1CB13931006F2290 /* Module Interface */,
+				5D1DB6FE1CB13931006F2290 /* User Interface */,
+			);
+			path = "Album List";
+			sourceTree = "<group>";
+		};
+		5D1DB6FC1CB13931006F2290 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		5D1DB6FD1CB13931006F2290 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		5D1DB6FE1CB13931006F2290 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				5D1DB6FF1CB13931006F2290 /* Presenter */,
+				5D1DB7001CB13931006F2290 /* Transition */,
+				5D1DB7011CB13931006F2290 /* View */,
+				5D1DB7021CB13931006F2290 /* Wireframe */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		5D1DB6FF1CB13931006F2290 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		5D1DB7001CB13931006F2290 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		5D1DB7011CB13931006F2290 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D1DB7031CB13978006F2290 /* DhtAlbumListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D1DB7021CB13931006F2290 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		5D1DB7101CB14761006F2290 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				5D1DB7111CB1476C006F2290 /* DhtPhotoAppearance.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		5DBBB9041CB15723009207BD /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				5DBBB9051CB1572C009207BD /* UIScreen+Extension.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		5DBBB9071CB15824009207BD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5DBBB9091CB15836009207BD /* DhtUtils.h */,
+				5DBBB90A1CB15836009207BD /* DhtUtils.mm */,
+				5DBBB9081CB15836009207BD /* DhtPhotoLibarby-Bridging-Header.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D1DB6DB1CB134E2006F2290 /* DhtPhotoLibarby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D1DB6EE1CB134E2006F2290 /* Build configuration list for PBXNativeTarget "DhtPhotoLibarby" */;
+			buildPhases = (
+				5D1DB6D81CB134E2006F2290 /* Sources */,
+				5D1DB6D91CB134E2006F2290 /* Frameworks */,
+				5D1DB6DA1CB134E2006F2290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DhtPhotoLibarby;
+			productName = DhtPhotoLibarby;
+			productReference = 5D1DB6DC1CB134E2006F2290 /* DhtPhotoLibarby.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D1DB6D41CB134E2006F2290 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Dht;
+				TargetAttributes = {
+					5D1DB6DB1CB134E2006F2290 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 5D1DB6D71CB134E2006F2290 /* Build configuration list for PBXProject "DhtPhotoLibarby" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D1DB6D31CB134E2006F2290;
+			productRefGroup = 5D1DB6DD1CB134E2006F2290 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D1DB6DB1CB134E2006F2290 /* DhtPhotoLibarby */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D1DB6DA1CB134E2006F2290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1DB6EA1CB134E2006F2290 /* LaunchScreen.storyboard in Resources */,
+				5D1DB6E71CB134E2006F2290 /* Assets.xcassets in Resources */,
+				5D1DB6E51CB134E2006F2290 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D1DB6D81CB134E2006F2290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBBB90B1CB15836009207BD /* DhtUtils.mm in Sources */,
+				5D1DB70F1CB146B5006F2290 /* DhtDefaultNavigationHeaderView.swift in Sources */,
+				5DBBB9061CB1572C009207BD /* UIScreen+Extension.swift in Sources */,
+				5D1DB70B1CB13F34006F2290 /* DhtBaseViewProtocol.swift in Sources */,
+				5D1DB7041CB13978006F2290 /* DhtAlbumListViewController.swift in Sources */,
+				5D1DB6F71CB135DA006F2290 /* ViewController.swift in Sources */,
+				5D1DB6F61CB135DA006F2290 /* AppDelegate.swift in Sources */,
+				5D1DB7071CB13C53006F2290 /* DhtBaseView.swift in Sources */,
+				5D1DB70D1CB14558006F2290 /* DhtButton.swift in Sources */,
+				5D1DB7121CB1476C006F2290 /* DhtPhotoAppearance.swift in Sources */,
+				5D1DB7091CB13CFE006F2290 /* DhtBaseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D1DB6E31CB134E2006F2290 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D1DB6E41CB134E2006F2290 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D1DB6E81CB134E2006F2290 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D1DB6E91CB134E2006F2290 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D1DB6EC1CB134E2006F2290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D1DB6ED1CB134E2006F2290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D1DB6EF1CB134E2006F2290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = DhtPhotoLibarby/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dht.DhtPhotoLibarby;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DhtPhotoLibarby/Classes/Common/Utils/DhtPhotoLibarby-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D1DB6F01CB134E2006F2290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = DhtPhotoLibarby/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dht.DhtPhotoLibarby;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DhtPhotoLibarby/Classes/Common/Utils/DhtPhotoLibarby-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D1DB6D71CB134E2006F2290 /* Build configuration list for PBXProject "DhtPhotoLibarby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D1DB6EC1CB134E2006F2290 /* Debug */,
+				5D1DB6ED1CB134E2006F2290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D1DB6EE1CB134E2006F2290 /* Build configuration list for PBXNativeTarget "DhtPhotoLibarby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D1DB6EF1CB134E2006F2290 /* Debug */,
+				5D1DB6F01CB134E2006F2290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D1DB6D41CB134E2006F2290 /* Project object */;
+}
